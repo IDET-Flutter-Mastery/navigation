@@ -1,0 +1,26 @@
+name: cineverse
+description: "CineVerse — a starter movie app for the Modern Navigation with go_router lecture."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  go_router: ^17.3.0
+  google_fonts: ^8.2.1
+
+
+  # 👉 LIVE CODING 1: add go_router here, e.g.
+  # go_router: ^14.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
